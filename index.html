@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/all.min.css" />
+		<link rel="stylesheet" href="style.css">
+
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<title>Predavanje18</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg bg-body-emphasis navbar-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Burger</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Pasta</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Dessert</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- header -->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="images/burger_header.jpg" class="d-block w-100" alt="..." />
+				<div class="carousel-caption start-50 top-0 pt-5">
+					<h5 class="fw-bold fs-1 pt-5">Cheese Burger</h5>
+					<p class="text-dark-emphasis pb-2">
+						Tasty burger with cheese and fries.<br />You can order right here!
+					</p>
+					<button type="button" class="btn btn-success text-light">
+						Buy now
+						<i class="fa-solid fa-cart-shopping"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- People love -->
+		<div class="bg-dark">
+			<div
+				class="justify-content-center d-flex flex-column align-items-center p-5"
+			>
+				<h2 class="text-white-50">People love</h2>
+				<p class="text-white">You need to try these new products</p>
+			</div>
+			<div class="container d-flex justify-content-evenly flex-wrap gap-2">
+				<div class="card col-12" style="width: 18rem">
+					<img src="images/burger.jpg" class="card-img-top" alt="burger" />
+					<div class="card-body bg-secondary">
+						<h5 class="card-title fw-bold">Beef Burger</h5>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet.<br />
+							<span class="text-white"> 14.90&euro;</span>
+						</p>
+						<a href="#" class="btn btn-success"
+							>Buy now<i class="fa-solid fa-cart-shopping p-1"></i
+						></a>
+					</div>
+				</div>
+				<div class="card col-12" style="width: 18rem">
+					<img src="images/pasta.jpg" class="card-img-top" alt="burger" />
+					<div class="card-body bg-secondary">
+						<h5 class="card-title fw-bold">Pasta with herbs</h5>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet.<br />
+							<span class="text-white"> 19.90&euro;</span>
+						</p>
+						<a href="#" class="btn btn-success"
+							>Buy now<i class="fa-solid fa-cart-shopping p-1"></i
+						></a>
+					</div>
+				</div>
+				<div class="card col-12" style="width: 18rem">
+					<img src="images/icecream.jpg" class="card-img-top" alt="burger" />
+					<div class="card-body bg-secondary">
+						<h5 class="card-title fw-bold">Ice Cream</h5>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet.<br />
+							<span class="text-white"> 9.90&euro;</span>
+						</p>
+						<a href="#" class="btn btn-success"
+							>Buy now<i class="fa-solid fa-cart-shopping p-1"></i
+						></a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="centerButton d-flex align-items-center justify-content-center p-5"
+			>
+				<button class="btn btn-light rounded-5 border-0">
+					View More<i class="fa-solid fa-utensils p-2"></i>
+				</button>
+			</div>
+			<div class="ourStory d-flex justify-content-center flex-wrap">
+				<div class="card border-0 rounded-2" style="width: 18rem">
+					<img class="restorant" src="images/restorant.jpg" alt="restoran" />
+				</div>
+				<div
+					class="card border-0 rounded-2 bg-black text-center pt-5"
+					style="width: 18rem"
+				>
+					<h2 class="text-white-50">This is our Story</h2>
+					<p class="text-white p-4">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+						iusto enim modi sint assumenda hic minima reiciendis facere atque
+						blanditiis?
+					</p>
+					<div class="ourStoryLogo">
+						<i class="fa-brands fa-square-facebook text-light fa-2x p-2"></i>
+						<i class="fa-brands fa-instagram fa-2x text-light"></i>
+						<i class="fa-brands fa-tiktok fa-2x text-light p-2"></i>
+					</div>
+				</div>
+				<div class="card border-0 rounded-2" style="width: 18rem">
+					<img class="chef" src="images/chef.jpg" alt="chef" />
+				</div>
+			</div>
+			<!--BURGERS-->
+			<div class="d-flex justify-content-center align-items-center m-5">
+				<h2 class="text-light">Burgers <i class="fa-solid fa-burger"></i></h2>
+			</div>
+			<div class="container mt-5 d-flex justify-content-evenly flex-wrap gap-2">
+				<div class="card bg-secondary text-center" style="width: 12rem">
+					<img src="images/burger_1.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h4 class="text-white-50">Cheese Burger</h4>
+						<p class="card-text">
+							12.90&euro;<i
+								class="fa-solid fa-cart-shopping m-2 text-light"
+							></i>
+						</p>
+					</div>
+				</div>
+
+				<div class="card bg-secondary text-center" style="width: 12rem">
+					<img src="images/burger_2.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h4 class="text-white-50">Egg & Bacon</h4>
+						<p class="card-text">
+							14.90&euro;<i
+								class="fa-solid fa-cart-shopping m-2 text-light"
+							></i>
+						</p>
+					</div>
+				</div>
+				<div class="card bg-secondary text-center" style="width: 12rem">
+					<img src="images/burger_3.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h4 class="text-white-50">Tasty chicken</h4>
+						<p class="card-text">
+							16.90&euro;<i
+								class="fa-solid fa-cart-shopping m-2 text-light"
+							></i>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div
+				class="centerButton d-flex align-items-center justify-content-center p-5"
+			>
+				<button class="btn btn-light rounded-5 border-0">
+					View More<i class="fa-solid fa-utensils p-2"></i>
+				</button>
+			</div>
+			<hr class="text-white-50 w-75" />
+
+			<!--PASTA-->
+			<div class="d-flex justify-content-center align-items-center m-5">
+				<h2 class="text-light">Pasta <i class="fa-solid fa-bowl-food"></i></h2>
+			</div>
+			<div class="container mt-5 d-flex justify-content-evenly flex-wrap gap-2">
+				<div class="card bg-secondary text-center" style="width: 12rem">
+					<img src="images/pasta_1.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h4 class="text-white-50">Spaghetti Bolognese</h4>
+						<p class="card-text">
+							20.90&euro;<i
+								class="fa-solid fa-cart-shopping m-2 text-light"
+							></i>
+						</p>
+					</div>
+				</div>
+				<div class="card bg-secondary text-center" style="width: 12rem">
+					<img src="images/pasta_2.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h4 class="text-white-50">Baked Spaghetti</h4>
+						<p class="card-text">
+							16.90&euro;<i
+								class="fa-solid fa-cart-shopping m-2 text-light"
+							></i>
+						</p>
+					</div>
+				</div>
+				<div class="card bg-secondary text-center" style="width: 12rem">
+					<img src="images/pasta_3.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h4 class="text-white-50">Pasta Carbonara</h4>
+						<p class="card-text">
+							19.90&euro;<i
+								class="fa-solid fa-cart-shopping m-2 text-light"
+							></i>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div
+				class="centerButton d-flex align-items-center justify-content-center p-5"
+			>
+				<button class="btn btn-light rounded-5 border-0">
+					View More<i class="fa-solid fa-utensils p-2"></i>
+				</button>
+			</div>
+			<hr class="text-white-50 w-75" />
+			<!--Dessert-->
+			<div class="d-flex justify-content-center align-items-center m-5">
+				<h2 class="text-light">
+					Desserts <i class="fa-solid fa-ice-cream"></i>
+				</h2>
+			</div>
+			<div class="container mt-5 d-flex justify-content-evenly flex-wrap gap-2">
+				<div class="card bg-secondary text-center" style="width: 12rem">
+					<img src="images/dessert_1.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h4 class="text-white-50">Nougat Ice Cream</h4>
+						<p class="card-text">
+							7.90&euro;<i class="fa-solid fa-cart-shopping m-2 text-light"></i>
+						</p>
+					</div>
+				</div>
+				<div class="card bg-secondary text-center" style="width: 12rem">
+					<img src="images/dessert_2.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h4 class="text-white-50">
+							Cheese<br />
+							Cake
+						</h4>
+						<p class="card-text">
+							9.90&euro;<i class="fa-solid fa-cart-shopping m-2 text-light"></i>
+						</p>
+					</div>
+				</div>
+				<div class="card bg-secondary text-center" style="width: 12rem">
+					<img src="images/dessert_3.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h4 class="text-white-50">Chocolate Cake</h4>
+						<p class="card-text">
+							12.90&euro;<i
+								class="fa-solid fa-cart-shopping m-2 text-light"
+							></i>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div
+				class="centerButton d-flex align-items-center justify-content-center p-5"
+			>
+				<button class="btn btn-light rounded-5 border-0">
+					View More<i class="fa-solid fa-utensils p-2"></i>
+				</button>
+			</div>
+			<hr class="text-white-50 w-75" />
+
+			<div class="container mt-3 d-flex justify-content-center">
+				<div class="card">
+					<div class="d-flex justify-content-between px-3 pt-3">
+						<span class="pay fw-bold">Pay amount</span>
+						<div class="amount">
+							<div class="inner text-secondary bg-primary-subtle p-2 rounded-2">
+								<span class="euro">&euro;</span>
+								<span class="total">0.0</span>
+							</div>
+						</div>
+					</div>
+					<div class="px-3 pt-3">
+						<label for="card number" class="d-flex justify-content-between">
+							<span class="labelText text-secondary">Card Number</span>
+							<i class="fa-solid fa-credit-card text-primary"></i>
+						</label>
+						<input
+							type="number"
+							name="number"
+							class="form-control inputtxt"
+							placeholder="8888 2222 5555 1111"
+						/>
+					</div>
+					<div class="d-flex justify-content-between px-3 pt-3">
+						<div>
+							<label for="data" class="exptxt text-secondary">Expiry</label>
+							<input
+								type="number"
+								name="number"
+								class="form-control expiry"
+								placeholder="MM / YY"
+							/>
+						</div>
+						<div>
+							<label for="cvv" class="cvvtxt text-secondary">CVV</label>
+							<input
+								type="number"
+								name="number"
+								class="form-control cvv"
+								placeholder="123"
+							/>
+						</div>
+					</div>
+					<div
+						class="d-flex align-content-center justify-content-between px-3 py-3"
+					>
+						<div>
+							<button type="button" class="btn cancel text-secondary">
+								Cancel
+							</button>
+						</div>
+						<div>
+							<button type="button" class="btn payment bg-primary text-white">
+								Pay
+							</button>
+						</div>
+					</div>
+				</div>
+		</div>
+		<footer class="text-white pt-5 pb-5 bg-black mt-5">
+			<div class="container d-flex justify-content-evenly flex-wrap">
+				<div class="col-md-2 col-lg-2 mt-3">
+					<h5 class="text-uppercase mb-4 fw-bold text-white">Products</h5>
+					<p>
+						<a href="#" class="text-secondary text-decoration-none">Burgers</a>
+					</p>
+					<p>
+						<a href="#" class="text-secondary text-decoration-none">Pasta</a>
+					</p>
+					<p>
+						<a href="#" class="text-secondary text-decoration-none">Desserts</a>
+					</p>
+				</div>
+				<div class="col-md-2 col-lg-2 mt-3">
+					<h5 class="text-uppercase mb-4 fw-bold text-white">About us</h5>
+					<p>
+						<a href="#" class="text-secondary text-decoration-none">Our Story</a>
+					</p>
+					<p>
+						<a href="#" class="text-secondary text-decoration-none">Galeria</a>
+					</p>
+					
+				</div>
+				<div class="col-md-2 col-lg-2 mt-3">
+					<h5 class="text-uppercase mb-4 fw-bold text-white">Useful Links</h5>
+					<p>
+						<a href="#" class="text-secondary text-decoration-none">Shipping Rates</a>
+					</p>
+					<p>
+						<a href="#" class="text-secondary text-decoration-none">People Rates</a>
+					</p>
+					<p>
+						<a href="#" class="text-secondary text-decoration-none">Help</a>
+					</p>
+					
+				</div>
+				<div class="col-md-3 col-lg-3 mt-3">
+					<h5 class="text-uppercase mb-4 fw-bold text-white">Contacts</h5>
+					<p class="text-secondary">
+						<i class="fa-solid fa-house-chimney m-2 text-white"></i>New York, NY 1234, US
+					</p>
+					<p class="text-secondary">
+						<i class="fa-solid fa-at m-2 text-white"></i>burger@gmail.com
+					</p>
+					<p class="text-secondary">
+						<i class="fa-solid fa-phone m-2 text-white"></i>+123 432 432
+					</p>
+				
+				</div>
+				
+			</div>
+		</footer>
+	</body>
+</html>
