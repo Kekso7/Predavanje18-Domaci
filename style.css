@@ -4,6 +4,12 @@
 	font-family: "Poppins", sans-serif;
 }
 
+.cardShadow {
+	border: 0;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+		-1px -1px 6px rgba(179, 179, 179, 0.4);
+}
+
 @media only screen and (max-width: 640px) {
 	.carousel-caption {
 		display: none;
